@@ -1,0 +1,227 @@
+/* App.css */
+
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+/* Header.css */
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(239, 237, 237, 0.1);;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #ccc;
+}
+
+/* App.css */
+
+/* Add a class for the modal background */
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it's above other content */
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add button to close the modal */
+.close-button {
+  cursor: pointer;
+  color: white;
+  position: relative;
+  left:406px;
+  top:-15px;
+}
+
+.add-button{
+  cursor: pointer;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+
+.main-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+/* ProblemList.css */
+.problem-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.problem-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.problem-item {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #444;
+}
+
+.problem-item h3 {
+  margin-top: 0;
+}
+
+.problem-item p {
+  margin: 5px 0;
+}
+
+.platform-icon {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.update-button,
+.edit-button,
+.delete-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.update-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #218838;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: darkblue;
+}
+
+/* ProblemForm.css */
+
+/* Dark theme for ProblemForm */
+.form-container {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+}
+
+.form-container button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
