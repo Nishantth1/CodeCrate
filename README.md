@@ -8,10 +8,10 @@ CodeCrate is a web application designed to help you store and manage coding prob
 - **Add/Edit Problems**: Add new problems or edit existing ones with ease.
 - **Code Editor**: Write and store your code solutions directly within the application.
 - **Dark Theme**: Enjoy coding in a comfortable dark theme.
-- **Responsive Design**: Access CodeVault from any device - desktop, tablet, or mobile.
+- **Responsive Design**: Access CodeCrate from any device - desktop, tablet, or mobile.
 
 
-## Scrrenshots
+## Screenshots 
 
 ### Home Page
 ![image](https://github.com/Nishantth1/CodeCrate/assets/97899868/37c1939d-c6ad-4b47-affa-d62caddf620f)
